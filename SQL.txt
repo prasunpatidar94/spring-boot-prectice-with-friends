@@ -1,0 +1,13 @@
+CREATE TABLE medicines (
+    c_id VARCHAR(255),
+    c_name VARCHAR(255),
+    c_batch_no VARCHAR(255),
+    d_expiry_date DATE,
+    n_balance_qty INT,
+    c_packaging VARCHAR(255),
+    c_unique_code VARCHAR(255),
+    c_schemes VARCHAR(255),
+    n_mrp DECIMAL(10, 2),
+    c_manufacturer VARCHAR(255),
+    hsn_code VARCHAR(255)
+);
